@@ -182,6 +182,11 @@ Sensible values for the env vars when on Google Container Engine are:
     use 255.255.0.0
 
  - **OVPN_K8S_DNS**:
+
+    You can find this using
+
+        kubectl --namespace=kube-system get service kube-dns
+        
  - **OVPN_NETWORK**:
 
     Anything that doesn't clash with the OVPN_K8S_SERVICE_NETWORK.
