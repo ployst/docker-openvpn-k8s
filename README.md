@@ -11,6 +11,8 @@
 
 Dockerfile to run [openvpn](https://openvpn.net/) inside [kubernetes](http://kubernetes.io/).
 
+Available on docker hub as [ployst/openvpn-k8s](https://hub.docker.com/r/ployst/openvpn-k8s/).
+
 # Contributing
 
 If you find this image useful you can help by doing one of the following:
